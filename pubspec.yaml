@@ -13,9 +13,11 @@ dependencies:
   flutter:
     sdk: flutter
   image_picker: ^0.8.4+11
+  location: ^4.3.0
   path: ^1.8.0
   path_provider: ^2.0.9
   provider: ^6.0.2
+  sqflite: ^2.0.2
 
 dev_dependencies:
   flutter_lints: ^1.0.0
