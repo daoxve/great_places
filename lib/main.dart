@@ -24,10 +24,11 @@ class App extends StatelessWidget {
             secondary: Colors.amber,
           ),
         ),
+        debugShowCheckedModeBanner: false,
         home: const PlacesListScreen(),
-          routes: {
-            AddPlaceScreen.routeName: (ctx) => const AddPlaceScreen(),
-          },
+        routes: {
+          AddPlaceScreen.routeName: (ctx) => const AddPlaceScreen(),
+        },
       ),
     );
   }
